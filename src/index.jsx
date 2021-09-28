@@ -15,7 +15,7 @@ ReactDOM.render(
 const shadowRoot = document.getElementById('shadow').attachShadow({mode: 'open'})
 const cssLink = document.createElement('link')
 cssLink.setAttribute('rel', 'stylesheet')
-cssLink.setAttribute('href', '/index.css')
+cssLink.setAttribute('href', './index.css')
 shadowRoot.append(cssLink)
 
 const mountingPoint = document.createElement('span')
