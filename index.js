@@ -8564,7 +8564,7 @@ var SelectorIcon_1 = SelectorIcon;
 var CheckIcon$1 = CheckIcon_1;
 var SelectorIcon$1 = SelectorIcon_1;
 
-// build/dist/App.js
+// build/App.js
 var people = [
   {name: "Wade Cooper"},
   {name: "Arlene Mccoy"},
@@ -8616,7 +8616,7 @@ function App() {
   }, selected.name));
 }
 
-// build/dist/index.js
+// build/index.js
 import.meta.env = env_exports;
 react_dom_default.render(/* @__PURE__ */ react.createElement(react.StrictMode, null, /* @__PURE__ */ react.createElement(App, null)), document.getElementById("light"));
 var shadowRoot = document.getElementById("shadow").attachShadow({mode: "open"});
