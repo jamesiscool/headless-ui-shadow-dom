@@ -8622,7 +8622,7 @@ react_dom_default.render(/* @__PURE__ */ react.createElement(react.StrictMode, n
 var shadowRoot = document.getElementById("shadow").attachShadow({mode: "open"});
 var cssLink = document.createElement("link");
 cssLink.setAttribute("rel", "stylesheet");
-cssLink.setAttribute("href", "/index.css");
+cssLink.setAttribute("href", "index.css");
 shadowRoot.append(cssLink);
 var mountingPoint = document.createElement("span");
 shadowRoot.append(mountingPoint);
